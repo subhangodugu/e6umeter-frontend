@@ -5,26 +5,22 @@ Next.js frontend for AI-powered adaptive assessments and career recommendations
 
 ---
 
-# E6U Meter â€” Frontend
 
-Next.js + TypeScript frontend for the E6U Meter application. This UI drives adaptive assessments, dashboards, and results pages and communicates with the FastAPI AI backend for question generation, NLP evaluation, and career recommendations.
+# E6U Meter — Frontend
+
+Next.js + TypeScript frontend for the E6U Meter application. This UI renders adaptive assessments, dashboards, and results pages and communicates with the FastAPI backend for AI-driven question generation, evaluation, and recommendations.
 
 ## Quick start
 
-1. Install dependencies
+Install dependencies and run the development server:
 
 ```powershell
 cd frontend
 npm install
-```
-
-2. Run development server
-
-```powershell
 npm run dev
 ```
 
-3. Build for production
+Build for production:
 
 ```powershell
 npm run build
@@ -33,23 +29,38 @@ npm start
 
 ## Environment
 
-Create a `.env.local` file at the project root with at least the backend URL:
+Create a `.env.local` file with the backend URL:
 
 ```
 NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
-## Deployment
+## Features
 
-This project is ready for Vercel. Connect the GitHub repository to Vercel and set the environment variable `NEXT_PUBLIC_API_URL` to your production backend URL. Vercel will auto-detect Next.js and run the correct build.
+- Adaptive question generation (interest, aptitude, personality)
+- NLP-based evaluation and scoring
+- Career recommendation mapping and readiness visualization
+
+## Deploy
+
+Recommended: deploy to Vercel (auto-detects Next.js). Connect the GitHub repository and set `NEXT_PUBLIC_API_URL` in Vercel's environment variables.
+
+Quick deploy via Vercel CLI:
+
+```powershell
+npm i -g vercel
+vercel login
+vercel --prod --confirm
+```
 
 ## Contributing
 
-Fork the repo, create a feature branch, then open a pull request against `main`.
+Fork, create a feature branch, and open a PR against `main`.
 
 ## License
 
-MIT â€” see `LICENSE` for details.
+MIT — see `LICENSE`.
+
 <<<<<<< HEAD
 # e6umeter
 Frontend for Edumeter project - Next.js app
