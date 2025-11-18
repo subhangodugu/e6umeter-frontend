@@ -1,4 +1,10 @@
-# E6U Meter — Frontend
+﻿# e6umeter-frontend
+Next.js frontend for AI-powered adaptive assessments and career recommendations
+
+
+---
+
+# E6U Meter â€” Frontend
 
 Next.js + TypeScript frontend for the E6U Meter application. This UI drives adaptive assessments, dashboards, and results pages and communicates with the FastAPI AI backend for question generation, NLP evaluation, and career recommendations.
 
@@ -42,7 +48,7 @@ Fork the repo, create a feature branch, then open a pull request against `main`.
 
 ## License
 
-MIT — see `LICENSE` for details.
+MIT â€” see `LICENSE` for details.
 <<<<<<< HEAD
 # e6umeter
 Frontend for Edumeter project - Next.js app
@@ -84,3 +90,4 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 >>>>>>> ce166b5 (Initial commit - frontend)
+
