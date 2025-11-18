@@ -3,3 +3,9 @@
 dist/
 .env
 .vercel
+npm-debug.log
+.DS_Store
+*.local
+*.env.*
+coverage/
+build/

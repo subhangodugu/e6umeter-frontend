@@ -1,3 +1,48 @@
+# E6U Meter — Frontend
+
+Next.js + TypeScript frontend for the E6U Meter application. This UI drives adaptive assessments, dashboards, and results pages and communicates with the FastAPI AI backend for question generation, NLP evaluation, and career recommendations.
+
+## Quick start
+
+1. Install dependencies
+
+```powershell
+cd frontend
+npm install
+```
+
+2. Run development server
+
+```powershell
+npm run dev
+```
+
+3. Build for production
+
+```powershell
+npm run build
+npm start
+```
+
+## Environment
+
+Create a `.env.local` file at the project root with at least the backend URL:
+
+```
+NEXT_PUBLIC_API_URL=http://localhost:8000
+```
+
+## Deployment
+
+This project is ready for Vercel. Connect the GitHub repository to Vercel and set the environment variable `NEXT_PUBLIC_API_URL` to your production backend URL. Vercel will auto-detect Next.js and run the correct build.
+
+## Contributing
+
+Fork the repo, create a feature branch, then open a pull request against `main`.
+
+## License
+
+MIT — see `LICENSE` for details.
 <<<<<<< HEAD
 # e6umeter
 Frontend for Edumeter project - Next.js app
