@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿# e6umeter-frontend
 Next.js frontend for AI-powered adaptive assessments and career recommendations
 
@@ -91,3 +92,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 >>>>>>> ce166b5 (Initial commit - frontend)
 
+=======
+# e6umeter-frontend
+Next.js frontend for AI-powered adaptive assessments and career recommendations
+>>>>>>> origin/main
